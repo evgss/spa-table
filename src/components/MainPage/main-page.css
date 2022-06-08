@@ -1,0 +1,21 @@
+.container {
+    width: 1232px;
+    height: 820px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 23px 77px 12px 74px;
+}
+
+.container__input {
+    display: inline-block;
+    position: relative;
+    border: 1px saddlebrown ridge;
+    margin-bottom: 15px;
+}
+
+.container__input .icon {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    color: #FFF;
+}

@@ -1,0 +1,38 @@
+.navigation {
+    width: 1077px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__btn, .navigation-center {
+    font-weight: 500;
+    font-size: 24px;
+    color: #474955;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: left;
+    border: none;
+    background-color: inherit;
+}
+.navigation__link{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-right: 10px;
+}
+.navigation__link.active{
+    color: #7EBC3C;
+}
+
+.btn-left {
+    padding-left: 41px;
+}
+
+.btn-right {
+    padding-right: 25px;
+}
